@@ -1,4 +1,5 @@
 # Resume
-My Resume -Created Latex.
-It is very classical Format.
+My Resume -Created in Latex.
+ * It is very classical and well format.
+ * It is also follow IEEE format.
 
