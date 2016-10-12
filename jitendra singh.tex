@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url,parskip} 	%other packages for formatting
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\def\LOGO{%
+\begin{picture}(0,0)\unitlength=1cm
+\put (-1,-2) {\includegraphics[scale=0.6]{logo_iiitv.png}}
+\end{picture}
+}
+\usepackage{geometry}
+\geometry{top=15mm,bottom=15mm,left=15mm,right=15mm}
+
+\begin{document}
+\begin{minipage}{\linewidth}
+\LOGO\\
+\end{minipage}
+\begin{flushright}
+\begin{minipage}{12cm}
+
+%------------------------------------------Personal Data---------------------------------------------%
+\begin{huge}\textbf{Jitendra Singh}\\ \\ \end{huge}
+\begin{large}
+\textbf{Indian Institute of Information Technology, Vadodara\\ }
+\end{large}
+\end{minipage}
+\end{flushright}
+\section{Contacts}
+\textbf{Email:} jsroyal55@gmail.com \hspace*{1cm} \textbf{DOB}: 31-07-1996 
+\hspace*{4.4cm}   \textbf{Website}:  www.jsroyal.com\\
+\textbf{Address}:V/P-Dhansa, Dist.-Jalore, Rajasthan(343023)
+\hspace*{4.5cm}  \textbf{Blog}:  www.jsroyal.bloger.com\\
+\hspace*{13cm} \textbf{Github}:  www.github.com/jsroyal\\
+%Section: Education
+\section{Education}
+\begin{tabular}{lllc}	
+\textbf{Degree}&\textbf{Institute}&\textbf{Year}&\textbf{CPI/Aggregate}\\
+B.Tech.& Indian Institute of Information Technology, Vadodara & 2014-2018 & 6.88/10  \\
+Intermidiate/+2 & Government Sr. Sec. School, Bhinmal(RBSE) & 2011-2013 & 83.40\%\\
+High School & Government Sec. School Dhansa(RBSE) & 2007-2011 & 79.00\%\\
+\end{tabular}
+
+%Section: Skills
+\section{Skills}
+\begin{tabular}{ll}
+\textbf{Expertise Area} & Database Design, Implementation, Web Application. \\
+\textbf{Area(s) of Interest}& Android Development, Object oriented Concepts, Web Development.\\
+\textbf{Programming Language(s)}& C, Java, Latex.\\
+\textbf{Tools and Technologies/SDK(s)} & Android Studio,Texmaker,Git,netbeans,Ecilpse\\
+\textbf{Database} & PostgreSQL,Mysql.\\
+
+\end{tabular}
+
+
+%Section: Projects
+\section{Projects}
+\begin{large}\textbf{Airlines Database Management System }\end{large} \begin{flushright}\textbf{Guide : Pokharmal Jat(DAIICT)}\\\end{flushright}
+This project is based on RDBMS design modal.The system
+will keep record of Companies, Flights, Pilots, Airports, Passenger, Booking etc.
+
+\begin{large}\textbf{MessMenu Android App}\end{large} \begin{flushright}\textbf{Guide :SelfLearning}\end{flushright}This project is about an Android application which can help to create best mess menu to run in the college where the students come from different areas.In this application main feature is polling system.
+
+\begin{large}\textbf{Awareness the Government Scheme to Farmer}\end{large} \begin{flushright}\textbf{Guide : Minal Bhise(DAIICT)}\\\end{flushright}
+This project is based on web application. We create a web portal which can help to farmers. Basically main feature is provide the information to given the scheme by Government.   
+%Section: Internships
+
+
+
+
+%Section: Work Experience
+
+%Section: Awards and Achievements
+\section{Awards and Achievements}
+\begin{itemize}
+\item Won Inspire award High School Science by Govt. India.
+ 
+\end{itemize}
+
+%Section: Position(s) of Responsibility
+%\section{Position(s) of Responsibility}
+%\begin{tabular}{lr}
+%Project Lead Technical Consultant (Drexel University, %Philadelphia) &(July, 14 – September, 14)\\
+%Teaching Assistant for DBMS course &(July, 14 – December, 14)\\
+%Member Student Placement Cell (DBA), Student Body Government, DA-%IICT &(September, 13 - December, 14)\\
+%\end{tabular}
+
+
+%Section: Interests and Activities
+\section{Interests and Activities}
+\begin{itemize}
+\item[] Horse Riding, Solving the real life problem,  Watch Tedx talk, Reading Inspire story, \\Wildlife Adventure and Be with Green Environment.\end{itemize}
+\vspace*{.5cm}
+\textbf{Declaration} : I hereby declare that all the details furnished above are true to the best of my knowledge and belief.
+\end{document}
