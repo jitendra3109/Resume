@@ -4,7 +4,7 @@ My Resume -Created in Latex.
  * It is also follow IEEE format.
  
  
- This repo under [GNU License](/GNU_License)
+- [GNU License](/GNU_License)
  
  
 
