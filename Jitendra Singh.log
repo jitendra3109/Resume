@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.11)  26 OCT 2016 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.11)  5 JAN 2017 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,7 +342,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo_iiitv.png, id=28, 150.5625pt x 150.5625pt>
+<logo_iiitv.png, id=32, 150.5625pt x 150.5625pt>
 File: logo_iiitv.png Graphic file (type png)
  <use logo_iiitv.png>
 Package pdftex.def Info: logo_iiitv.png used on input line 27.
@@ -376,29 +376,29 @@ Overfull \hbox (1.77348pt too wide) in paragraph at lines 80--84
 \OT1/cmr/m/n/10 tion use An-droid ap-pli-ca-tion.  Team:9 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_iiitv.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_iiitv.png>] [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./Jitendra Singh.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `"Jitendra Singh".out' has not changed.
-(rerunfilecheck)             Checksum: FAC73F3D2C5DB3864AF4CA9E60955ED0;311.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+(rerunfilecheck)             Checksum: E7141E6981B8B349C4E8BBA0A1992DE5;356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 6380 strings out of 494977
- 92884 string characters out of 6180183
+ 6383 strings out of 494977
+ 92910 string characters out of 6180183
  190952 words of memory out of 5000000
- 9558 multiletter control sequences out of 15000+600000
+ 9559 multiletter control sequences out of 15000+600000
  5758 words of font info for 21 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  29i,9n,35p,284b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -408,10 +408,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Jitendra Singh.pdf" (1 page, 96336 bytes).
+Output written on "Jitendra Singh.pdf" (2 pages, 96979 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
