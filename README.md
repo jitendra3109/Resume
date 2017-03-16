@@ -11,11 +11,12 @@ Take `.tex` extantion file from the dir.
 
 Before that you need to Sign up [ShareLatex](https://www.sharelatex.com/)
 
-[![ShareLatex](/sharelatex.png)]
+![ShareLatex](/sharelatex.png)
 
 After that you upload the .tex file and hit the compile and generate CV and download several type of extation for you resume.</br>
 That's it.
 If you get something worth it then say thanks [Give Star] :purple_heart:  
+### License
 
 This poject under the [GNU License](/GNU_License). 
  
