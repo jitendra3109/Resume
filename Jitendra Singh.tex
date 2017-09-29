@@ -1,112 +1,158 @@
-\documentclass{article}
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.85in, bottom=0.55in, left=0.55in, right=0.85in]{geometry}
 \usepackage{graphicx}
-\usepackage{url,parskip} 	%other packages for formatting
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{supertabular} 				%for Grades
-\usepackage{titlesec}					%custom \section
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
 
-%Setup hyperref package, and colours for links
-\usepackage{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
 
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{3pt}{3pt}
+\usepackage{color}
+\definecolor{mygrey}{gray}{.90}
 
-\def\LOGO{%
-\begin{picture}(0,0)\unitlength=1cm
-\put (-1,-2) {\includegraphics[scale=0.6]{logo_iiitv.png}}
-\hspace*{13cm}Last Updated on \today \\ \\
-\end{picture}
-}
-\usepackage{geometry}
-\geometry{top=15mm,bottom=15mm,left=15mm,right=15mm}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
 
 \begin{document}
-\begin{minipage}{\linewidth}
-\LOGO\\
-\end{minipage}
-\begin{flushright}
-\begin{minipage}{12cm}
 
-%------------------------------------------Personal Data---------------------------------------------%
-\begin{huge}\textbf{Jitendra Singh}\\ \end{huge}
-\begin{large}
-\textbf{Indian Institute of Information Technology, Vadodara\\\\}
-\textbf{Email:}jsroyal55@gmail.com \hspace*{.5cm} \textbf{DOB}:31-07-1996 
 
-\textbf{Address}:V/P-Dhansa, Dist.-Jalore, Rajasthan(343023)\vspace{.2cm}
 
-\textbf{Github:} @jsroyal,\hspace*{.7cm}\textbf{Stackoverflow:} @jsroyal\\
-\end{large}
-\end{minipage}
-\end{flushright}
+\indent \begin{tabular}{ l @{\hskip 0.9in} l @{\hskip 0.9in} l @{\hskip 0.8in} l}
 
-%Section: Education
-\section{Education}
-\begin{tabular}{lllc}	
-\textbf{Degree}&\textbf{Institute}&\textbf{Year}&\textbf{CPI/Aggregate}\\
-B.Tech.& Indian Institute of Information Technology, Vadodara & 2014-2018 & 6.88  \\
-Intermidiate/+2 & Government Sr. Sec. School, Bhinmal(RBSE) & 2011-2013 & 83.40\%\\
-High School & Government Sec. School Dhansa(RBSE) & 2007-2011 & 79.00\%\\
-\end{tabular}
+\includegraphics[width=1.8cm]{logo.png} & \textbf{\fontsize{25}{60}\selectfont Jitendra Singh} &
+ Email : \textbf{jsroyal55@gmail.com}\\ & &
+ Contact : \textbf{9408393337}\\ & &
+ GitHub Profile :\textbf{@jsroyal}\\
 
-%Section: Skills
-\section{Skills}
-\begin{tabular}{ll}
-\textbf{Expertise Area:} & Database Design, Algorithm Desing and Analysis, Android Development . \\
-\textbf{Area(s) of Interest:}& Android Development, Object oriented Concepts,Beck-end Developer .\\
-\textbf{Programming Language(s):}& C, Java,Python,Latex.\\
-\textbf{Tools and Technologies/SDK(s)} & Android Studio,Texmaker,SmartGit,netbeans,Command-line\\
-\textbf{Database:} & PostgreSQL,Mysql,Clould Database.\\
-\textbf{Elective:} & Computer Science with Android(Google) , Modern Application Development(NPTEL).
 
 \end{tabular}
 
 
-%Section: Projects
-\section{Projects}
 
-\begin{large}
-\textbf{Airlines Database Management System \hspace*{3cm} Guide:Pokharmal      Jat(DAIICT) }
-\end{large} 
-This project is based on RDBMS design modal.The system
-will keep record of Companies, Flights, Pilots, Airports, Passenger, Booking etc.
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.55in} l @{\hskip 0.55in} l @{\hskip 0.6in} l @{\hskip 0.8in} l }
 
-\begin{large}\textbf{FunwithSquare \hspace*{6.5cm} Guide  :Rajat Talesra(Google Facilitator)}
-\end{large}
-This is project about an perfect Square fun game  build in Android application.In this project we use redix tree data structure which is most efficient search and less memory space store data.\hspace*{5.5cm}Team: 4
+\textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{CPI/\%} \\\hline
 
-\begin{large}\textbf{Travel Dairies \hspace{7cm} Guide : Prof. Asim Banerjee(DAIICT)}\end{large} 
-Social Networking Platform for Tourists build a Android Application.
-This is Sotfware Enginnering Projectwe building at Daiict CSE LAB.We are using Django server for backend and Postgre Sql for Database.fronted Development mobile application use Android application.\hspace{13cm} Team:9  
-%Section: Internships
-\section{Internship}
+B.Tech & IIIT VADODARA & 2018 & 7.06 [till 6th semester]      \\
+Intermediate & Govt. School Bhinmal & 2013 & 83.2\% \\
+Matriculation & Govt. School Dhansa & 2011 & 79.33\%\\
+
+
+\end{tabular}
+%\end{center}
+%\end{table}
+\\
+
+\resheading{\textbf{PROFESSIONAL EXPERIENCE} }\\[\lsep]
 \begin{itemize}
-\item Rural Internship at ARAVALI NGO Jaipur  
+\item \noindent GPSDesk Bengaluru \\
+\emph{Summer Intern, May-July, 2017} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+    	\item Worked on project route optima engine which provides the best possible route considering various factors e.g time, capacity. 
+    	\item I enabled various features likes female security on optimal path, apart from best route also provide two best alternative paths, Speed region integration.
+
 \end{itemize}
 
-
-%Section: Work Experience
-
-%Section: Awards and Achievements
-\section{Awards and Achievements}
-\begin{itemize}
-\item Won Inspire award High School Science by Govt. India.
-\item Won third award at code sprint Hackthon IIIT VADODARA by Applied CsWithAndoird Google.
- 
+\item \noindent IISC Bangalore \\
+\emph{Summer School, July, 2017} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+    	\item Introduce undergraduate students to cutting-edge research of computer science in industry and academia.
+    	\item The summer school contains talks, demos, and hands-on sessions by the department faculty, research scholars and industry experts, covering theoretical and applied aspects of computer science. 
+    	
 \end{itemize}
 
-
-\section{Position(s) of Responsibility}
-
-\begin{itemize}
-\item Volunteer - CsWithAndoird Workshop(IIIT VADODARA). 
+\item \noindent Open Source Contribute \\
+\emph{2016 -} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+    	\item For year and half, I have been contributing to various repositories e.g. phipme, jsrpit, PhishmanAlgo
+    	\item I got good experience by going through others code base and working remotely.
+\end{itemize}
+\item \noindent ARAVALI Jaipur \\
+\emph{Winter Intern, Nov-Dec, 2016} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+    	\item Developed a responsive and interactive website using bootstrap framework and got a work experience with the Non-Profit organization.
 \end{itemize}
 
-\section{Interests and Activities}
-\begin{itemize}
-\item[] Horse Riding, Solving the real life problem,  Watch Tedx talk, Reading Inspire story, \\Wildlife Adventure and Be with Green Environment.\end{itemize}
+\end{itemize}
 
-\textbf{Declaration} : I hereby declare that all the details furnished above are true to the best of my knowledge and belief.
+\resheading{\textbf{MAJOR PROJECTS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Search Indexer} \\
+ \emph{ Jan-May, 2017
+} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Information retrieval system implemented in CLI, based on Cosine similarity using TF-IDF [term frequency–inverse document frequency] model. Given a set of 
+query words, It retrieved the most relevant docs. 
+	\end{itemize}
+
+\item \noindent \textbf{Repository of Algos} \\
+\emph{Since Jan 2017} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+    	\item  We have implemented a repository of most popular algorithms and data structures in various languages e.g. Java, C, C++, Python, Javascript, Go. 
+	\end{itemize}
+
+\item \textbf{Travel Dairies} \\
+ \emph{ September-October, 2016
+} \\[-0.6cm]
+\begin{itemize}\itemsep \isep
+\item Social Networking Platform application for Tourists. Using SDLC model we build an 
+android app at DAIICT CSE LAB. The documentation is available on Github repo. 
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize} \itemsep-0.2em
+\item \textbf{Skills:} Programming, Algorithm, Data structure, Software Engineering, Application Development.
+\item \textbf{Language:} Java, C, Python, Javascript.
+\item \textbf{Tools:} IntelliJ, Sublime, Git, Github \LaTeX, Android Studio.
+\item \textbf{Frameworks \& Lib.:} Jsprit, Graphopper, Bootstrap,
+\end{itemize}
+\newpage
+\resheading{\textbf{ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}
+\itemsep-0.2em
+\item Certified from Coursera Algorithm and Data Structure  
+\item 1st Tech Quiz Summer School IISC Bangalore July 2017 
+\item Won the High School Science inspired award, 2011. 
+\item Member, College Coding Club, IIIT VADODARA. 
+\item Qualified SnackDown Codechef 2016, 2017 
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\itemsep-0.2em
+\item Open Source, StackOverflow points-335, Google Maps 6 level Contributor.
+\item Reading Blogs \& Inspired Story, TEDx, Medium, Quora,  Techmeme.
+\end{itemize}
 \end{document}
+
+
